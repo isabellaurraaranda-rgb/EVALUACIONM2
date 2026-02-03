@@ -1,0 +1,32 @@
+.foto-perfil {
+    width: 150px;      
+    height: 150px;     
+    object-fit: cover; 
+    border-radius: 50% !important;
+    display: block;
+    margin: 20px auto; 
+}
+
+body {
+    transition: background 0.4s, color 0.4s;
+}
+
+body.light {
+    background: #f8f9fa;
+    color: #000;
+}
+
+body.dark {
+    background: #121212;
+    color: #fff;
+}
+
+.seccion {
+    margin-top: 80px;
+}
+
+.seccion.activa {
+    background-color: #e3f2fd;
+    padding: 20px;
+    border-radius: 8px;
+}
