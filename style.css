@@ -1,3 +1,31 @@
+/* Transiciones */
+body {
+    transition: background 0.4s, color 0.4s;
+}
+
+/* Modo Claro */
+body.light {
+    background: #000000 !important;
+    color: #ffffff !important;
+}
+/* Modo oscuro */
+body.dark {
+    background: #ffffff !important;
+    color: #000000 !important; 
+}
+
+/* Estilo del botón de tema */
+body.dark #btn-theme {
+    color: #ffdb58; 
+    border-color: #ffdb58;
+}
+
+body.light #btn-theme {
+    color: #555;
+    border-color: #555;
+}
+
+/* Foto de perfil */
 .foto-perfil {
     width: 150px;      
     height: 150px;     
@@ -7,26 +35,19 @@
     margin: 20px auto; 
 }
 
-body {
-    transition: background 0.4s, color 0.4s;
-}
-
-body.light {
-    background: #f8f9fa;
-    color: #000;
-}
-
-body.dark {
-    background: #121212;
-    color: #fff;
-}
-
+/* Secciones */
 .seccion {
     margin-top: 80px;
 }
 
 .seccion.activa {
-    background-color: #e3f2fd;
+    background-color: #f1efd0;
     padding: 20px;
     border-radius: 8px;
+    color: #000; /* Texto oscuro para que resalte en el fondo crema */
+}
+
+/* Footer ajuste para modo oscuro */
+body.dark footer {
+    border-top: 1px solid #333 !important;
 }
