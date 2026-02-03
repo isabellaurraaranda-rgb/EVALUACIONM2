@@ -10,4 +10,5 @@ Currículum interactivo desarrollado con HTML, CSS, Bootstrap, JavaScript y jQue
 - Formulario con validación en tiempo real
 
 ## CV en vivo
-(agrega aquí el enlace cuando lo publiques en GitHub Pages)
+https://github.com/isabellaurraaranda-rgb/EVALUACIONM2.git
+
