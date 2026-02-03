@@ -5,12 +5,12 @@ html <!DOCTYPE html>
     <title>CV Interactivo | Isabella Urra Aranda</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap --> <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- CSS propio -->
-    <link rel="stylesheet" href="style.css">
+    <!-- CSS propio --> <link rel="stylesheet" href="style.css">
     </head>
+
+</button>
 
     <body class="light">
 
@@ -18,6 +18,11 @@ html <!DOCTYPE html>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
     <div class="container">
         <a class="navbar-brand" href="#inicio">Isabella Urra</a>
+
+        <button id="btn-theme" class="btn btn-outline-light ms-auto">
+        <i id="theme-icon" class="fas fa-moon"></i> 
+        <span id="theme-text">Modo Oscuro</span>
+    </button>
         <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
         <span class="navbar-toggler-icon"></span>
         </button>
@@ -88,6 +93,24 @@ html <!DOCTYPE html>
             </a>
     </p>
 
+<footer class="text-center py-4 mt-5 border-top">
+    <div class="container">
+        <p class="mb-1"><strong>Contactame</strong></p>
+        <p class="mb-1">
+            <i class="fas fa-envelope me-2"></i>
+            <a href="mailto:isabellaurraaranda@gmail.com" class="text-decoration-none color-link">
+                isabellaurraaranda@gmail.com
+            </a>
+        </p>
+        <p class="mb-0">
+            <i class="fas fa-phone me-2"></i>
+            <a href="tel:+56944242756" class="text-decoration-none color-link">
+                +569 44242756
+            </a>
+        </p>
+        <small class="text-muted d-block mt-3">© 2026 Isabella Urra Aranda - Todos los derechos reservados</small>
+    </div>
+</footer>
     </section>
 
     <!-- JS -->
